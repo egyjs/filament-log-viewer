@@ -2,6 +2,8 @@
 
 namespace Egyjs\FilamentLogViewer;
 
+use Egyjs\FilamentLogViewer\Commands\FilamentLogViewerCommand;
+use Egyjs\FilamentLogViewer\Testing\TestsFilamentLogViewer;
 use Filament\Support\Assets\AlpineComponent;
 use Filament\Support\Assets\Asset;
 use Filament\Support\Assets\Css;
@@ -13,8 +15,6 @@ use Livewire\Features\SupportTesting\Testable;
 use Spatie\LaravelPackageTools\Commands\InstallCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Egyjs\FilamentLogViewer\Commands\FilamentLogViewerCommand;
-use Egyjs\FilamentLogViewer\Testing\TestsFilamentLogViewer;
 
 class FilamentLogViewerServiceProvider extends PackageServiceProvider
 {
